@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <!-- add styles.css -->
+    <link rel="stylesheet" href="/Styles.css" />
+    <title>Favspot &dash; Map your workouts</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="logo.png" alt="logo" class="logo" />
+
+      <ul class="workouts">
+        <form class="form form--hidden">
+          <div class="form--row">
+            <label class="form--label">Type</label>
+            <select class="form--input form--input-type">
+              <option value="running">Running</option>
+              <option value="cycling">Cycling</option>
+            </select>
+          </div>
+          <div class="form--row">
+            <label class="form--label">Distance</label>
+            <input class="form--input form--input-distance" placeholder="km" />
+          </div>
+          <div class="form--row">
+            <label class="form--label">Duration</label>
+            <input class="form--input form--input-duration" placeholder="min" />
+          </div>
+          <div class="form--row">
+            <label class="form--label">Cadence</label>
+            <input
+              class="form--input form--input-cadence"
+              placeholder="step/min" />
+          </div>
+          <div class="form--row form--row-hidden">
+            <label class="form--label">Elevation</label>
+            <input
+              class="form--input form--input-elevation"
+              placeholder="meters" />
+          </div>
+          <div>
+            <button class="form--btn">OK</button>
+          </div>
+        </form>
+
+        <li class="workout workout--running" data-id="1234567890">
+          <h2 class="workout--title">Running on December 23</h2>
+          <div class="workout--details">
+            <span class="workout--icon">🏃‍♂️</span>
+            <span class="workout--value">2.2</span>
+            <span class="workout--unit">km</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">⏱</span>
+            <span class="workout--value">18</span>
+            <span class="workout--unit">min</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">⚡️</span>
+            <span class="workout--value">5.2</span>
+            <span class="workout--unit">min/km</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">🦶🏼</span>
+            <span class="workout--value">300</span>
+            <span class="workout--unit">spm</span>
+          </div>
+        </li>
+
+        <li class="workout workout--cycling" data-id="1234567891">
+          <h2 class="workout--title">Cycling on December 24</h2>
+          <div class="workout--details">
+            <span class="workout--icon">🚴‍♀️</span>
+            <span class="workout--value">12</span>
+            <span class="workout--unit">km</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">⏱</span>
+            <span class="workout--value">30</span>
+            <span class="workout--unit">min</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">⚡️</span>
+            <span class="workout--value">10</span>
+            <span class="workout--unit">km/h</span>
+          </div>
+          <div class="workout--details">
+            <span class="workout--icon">⛰</span>
+            <span class="workout--value">200</span>
+            <span class="workout--unit">m</span>
+          </div>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; Copyright by Mehtab Singh Jagde</p>
+      <div class="social--icons">
+        <div>
+          <a
+            class="icon--link"
+            target="_blank"
+            href="https://instagram.com/mehtab_jagdey"
+            ><ion-icon class="social--icon" name="logo-instagram"></ion-icon
+          ></a>
+          <a
+            class="icon--link"
+            target="_blank"
+            href="https://github.com/MehtabSJ003"
+            ><ion-icon class="social--icon" name="logo-github"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="map"></div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
