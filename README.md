@@ -11,5 +11,6 @@ A Real World application that keeps the track of your workout (Running or Cyclin
 - Object Oriented Programming in JavaScript
 - Geolocation API
 - Leaflet Library
+- Local Storage API
 
 
