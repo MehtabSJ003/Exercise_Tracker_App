@@ -15,6 +15,6 @@ A Real World application that keeps the track of your workout (Running or Cyclin
 
 # Key Highlights
 
-![Alt text](/app_imgs/app_img2.png?raw=true "Optional Title")
+![Alt text](/app_imgs/app_img2.png?raw=true "Choose Workout Type")
 
-![Alt text](/app_imgs/app_img1.png?raw=true "Optional Title")
+![Alt text](/app_imgs/app_img1.png?raw=true "Click any where on map to begin new workout")
