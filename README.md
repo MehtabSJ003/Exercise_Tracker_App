@@ -15,4 +15,4 @@ A Real World application that keeps the track of your workout (Running or Cyclin
 
 # Key Highlights
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/app_imgs/app_img1.png?raw=true "Optional Title")
