@@ -13,4 +13,6 @@ A Real World application that keeps the track of your workout (Running or Cyclin
 - Leaflet Library
 - Local Storage API
 
+# Key Highlights
 
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
